@@ -1,5 +1,5 @@
 ---
 layout: post
-title: testtitle
+title: Maya Animation
 ---
 # Maya Animation
