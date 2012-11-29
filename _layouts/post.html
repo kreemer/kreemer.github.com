@@ -2,9 +2,7 @@
 layout: default
 ---
 <div id="post">
-    <h3><a href="{{ page.url }}">
-        {{ page.title }}
-    </a></h3>
-    <div id="date">committed {{ page.date | date_to_string }}</div>
     {{ content }}
+    <div id="date">committed {{ page.date | date_to_string }}</div>
+    <div id="backlink"><a href="/">Back</a></div>
 </div>
