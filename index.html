@@ -1,11 +1,14 @@
 ---
 layout: default
-title: testtitle
+title: index
 ---
-<div>
-    <ul>
+<div class="main">
     {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
-    {% endfor %}
-    </ul>
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<p>
+    	{{ post.content | strip_html | truncatewords: 55 }}
+		<span class="published">- Published at {{ post.date | date_to_long_string }}</span>
+	</p>
+	{% endfor %}
+    
 </div>
