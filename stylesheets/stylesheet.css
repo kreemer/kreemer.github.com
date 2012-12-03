@@ -141,6 +141,15 @@ footer a:hover {
   font-size: 0.8em;
 }
 
+.postContent {
+    margin: 3em;
+}
+
+.previewText {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 em {
   font-style: italic;
 }
