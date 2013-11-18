@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing the new GitHub Feature
+title: Encodings
 ---
 
 # Encodings
