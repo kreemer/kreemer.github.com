@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Testing the new GitHub Feature
+excerpt: Adding files directly on the web-frontend
+tags: [IT]
 ---
 
 # GitHub Feature

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Maya Animation
+excerpt: I hate modelling
+tags: [IT]
 ---
 # Maya Animation
 

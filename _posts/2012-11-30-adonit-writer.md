@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Adonit Writer for IPad
+excerpt: IPad keyboard
+tags: [IT]
 ---
 
 # Adonit Writer

@@ -19,7 +19,7 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-        <title>Kreemer - {{ page.title }}</title>
+        <title>Kreemer - Home</title>
     </head>
 
     <body>
@@ -38,16 +38,12 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        {% if page.active == "home" %}
+                        
                         <li class="active"><a href="#">Home</a></li>
-                        {% else %}
-                        <li><a href="/">Home</a></li>
-                        {% endif %}
-                        {% if page.active == "about" %}
-                        <li class="active"><a href="#">About</a></li>
-                        {% else %}
+                        
+                        
                         <li><a href="/about.html">About</a></li>
-                        {% endif %}
+                        
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -61,20 +57,93 @@
                     <div class="container col-md-2">
                         <h3>By tags</h3>
                         <ul>
-                            <li><a href="/tags/">All tags</a><span class="badge">{{ site.posts | size}}</span></li>
-                            {% for tag in site.tags %}
+                            <li><a href="/tags/">All tags</a><span class="badge">6</span></li>
+                            
                             <li class="camelize_me">
-                                <a href="/tags/?name={{tag | first}}">
-                                    {{tag | first }}
+                                <a href="/tags/?name=IT">
+                                    IT
                                     <span class="badge">
-                                    {{ tag | last | size }}
+                                    5
                                     </span>
                                 </a>
                             </li>
-                            {% endfor %}
+                            
+                            <li class="camelize_me">
+                                <a href="/tags/?name=Private">
+                                    Private
+                                    <span class="badge">
+                                    1
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li class="camelize_me">
+                                <a href="/tags/?name=Work">
+                                    Work
+                                    <span class="badge">
+                                    1
+                                    </span>
+                                </a>
+                            </li>
+                            
                         </ul>
                     </div>
-                {{ content }}
+                <div class="container col-md-8 main">
+    
+	<h2><a href="/2015/05/06/kayako.html">Kayako Helpdesk</a></h2>
+	<p class="previewText">
+        This so called ticketsystem is just bad
+		<span class="published">- Published at 06 May 2015</span>
+	</p>
+	
+	<h2><a href="/2013/11/18/encodings.html">Encodings</a></h2>
+	<p class="previewText">
+        And it's not even monday
+		<span class="published">- Published at 18 November 2013</span>
+	</p>
+	
+	<h2><a href="/2012/12/06/test-of-github-feature.html">Testing the new GitHub Feature</a></h2>
+	<p class="previewText">
+        Adding files directly on the web-frontend
+		<span class="published">- Published at 06 December 2012</span>
+	</p>
+	
+	<h2><a href="/2012/12/01/bruce.html">Bruce</a></h2>
+	<p class="previewText">
+        tha bruce
+		<span class="published">- Published at 01 December 2012</span>
+	</p>
+	
+	<h2><a href="/2012/11/30/adonit-writer.html">Adonit Writer for IPad</a></h2>
+	<p class="previewText">
+        IPad keyboard
+		<span class="published">- Published at 30 November 2012</span>
+	</p>
+	
+
+    <!-- Pagination links -->
+    
+    <div class="pagination">
+        
+        <span>&laquo; Prev</span>
+        
+
+        
+        
+        <em>1</em>
+        
+        
+        
+        <a href="/page2/">2</a>
+        
+        
+
+        
+        <a href="/page2/">Next &raquo;</a>
+        
+    </div>
+    
+</div>
                 </div>
             </div>
 
