@@ -7,4 +7,4 @@ comments: true
 ---
 
 
-I hate them all :X
+I hate them all :weary:

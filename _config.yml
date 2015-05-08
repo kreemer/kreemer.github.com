@@ -4,8 +4,6 @@ lsi: false
 source: .
 paginate: 5
 paginate_path: "/page:num/"
-gems:
-  jekyll-lunr-js-search
-  jemoji
+gems: ['jekyll-lunr-js-search', 'jemoji']
 lunr_search:
   js_dir: "javascript-build"
