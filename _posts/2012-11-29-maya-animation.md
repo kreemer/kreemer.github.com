@@ -3,8 +3,8 @@ layout: post
 title: Maya Animation
 excerpt: I hate modelling
 tags: [IT]
+comments: true
 ---
-# Maya Animation
 
 I've just have finished my first animation created with Autodesk Maya. It was for a school project, so it isn't spectacular.
 
